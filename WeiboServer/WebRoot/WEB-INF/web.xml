@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>UsersHeadimg</servlet-name>
+    <servlet-class>com.azusal.weibo.UsersHeadimg</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users</servlet-name>
+    <servlet-class>com.azusal.weibo.UsersLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.azusal.weibo.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetWeibo</servlet-name>
+    <servlet-class>com.azusal.weibo.GetWeibo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addweibo</servlet-name>
+    <servlet-class>com.azusal.weibo.Addweibo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsersHeadimg</servlet-name>
+    <url-pattern>/servlet/UsersHeadimg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users</servlet-name>
+    <url-pattern>/servlet/UsersLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetWeibo</servlet-name>
+    <url-pattern>/servlet/GetWeibo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addweibo</servlet-name>
+    <url-pattern>/servlet/Addweibo</url-pattern>
+  </servlet-mapping>
+</web-app>
